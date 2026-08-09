@@ -1,0 +1,54 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Archives
+*.zip
+*.7z
+*.rar
+
+# Vivado generated data
+.Xil/
+*.cache/
+*.runs/
+*.sim/
+*.tmp/
+*.hw/
+*.ip_user_files/
+*.gen/
+*.jou
+*.log
+*.str
+*.backup.jou
+*.backup.log
+hs_err_*.log
+
+# Vivado generated outputs
+*.bit
+*.bin
+*.ltx
+*.dcp
+*.rpt
+*.pb
+*.wdb
+*.wcfg
+
+# Chipyard / Scala build products
+target/
+build/
+generated-src/
+*.fir
+*.anno.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Temporary files
+*.tmp
+*.bak

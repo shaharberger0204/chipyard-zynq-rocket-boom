@@ -1,0 +1,47 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.399875",
+   "Default View_TopLeft":"-278,-660",
+   "ExpandedHierarchyInLayout":"",
+   "commentid":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0 threadsafe
+#  -string -flagsOSRD
+preplace port port-id_pulse_out -pg 1 -lvl 10 -x 2770 -y 190 -defaultsOSRD
+preplace inst PS_SUBSYSTEM -pg 1 -lvl 6 -x 1630 -y 370 -defaultsOSRD
+preplace inst axi_clock_converter_0 -pg 1 -lvl 5 -x 1260 -y 340 -defaultsOSRD
+preplace inst vio_0 -pg 1 -lvl 1 -x 120 -y 80 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 2 -x 360 -y 90 -defaultsOSRD
+preplace inst axi_addr_remap_64_0 -pg 1 -lvl 4 -x 970 -y 300 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 8 -x 2350 -y 270 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 7 -x 2030 -y 390 -defaultsOSRD
+preplace inst pulse_gen_0 -pg 1 -lvl 9 -x 2620 -y 190 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 8 -x 2350 -y 410 -defaultsOSRD
+preplace inst axi_bram_ctrl_1 -pg 1 -lvl 8 -x 2350 -y 550 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 9 -x 2620 -y 420 -defaultsOSRD
+preplace inst BoomCore_0 -pg 1 -lvl 3 -x 650 -y 80 -defaultsOSRD
+preplace inst boom_ila -pg 1 -lvl 4 -x 970 -y 110 -defaultsOSRD
+preplace netloc PS_SUBSYSTEM_peripheral_aresetn_100M 1 1 8 220 170 NJ 170 840 210 NJ 210 1440J 180 1850 580 2200 190 NJ
+preplace netloc PS_SUBSYSTEM_peripheral_aresetn_300M 1 4 3 1090 220 1440J 550 1820
+preplace netloc PS_SUBSYSTEM_pl_clk_300M 1 4 3 1100 230 1430J 560 1830
+preplace netloc axi_gpio_0_gpio_io_o 1 8 1 2490 210n
+preplace netloc clk_100M_1 1 0 9 20 160 NJ 160 510 150 820 220 1080 240 1420J 570 1840 200 2190 170 NJ
+preplace netloc pulse_gen_0_pulse_out 1 9 1 N 190
+preplace netloc util_vector_logic_0_Res1 1 2 3 520 160 830 380 1080J
+preplace netloc vio_0_probe_out0 1 1 1 NJ 80
+preplace netloc BoomCore_0_M_AXI_MEM 1 3 1 810 70n
+preplace netloc BoomCore_0_M_AXI_MMIO 1 3 4 800 10 NJ 10 NJ 10 1860
+preplace netloc PS_SUBSYSTEM_M_AXI_HPM1_FPD 1 6 1 N 280
+preplace netloc axi_addr_remap_64_0_m_axi 1 4 1 N 300
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 8 1 N 410
+preplace netloc axi_bram_ctrl_1_BRAM_PORTA 1 8 1 2490 430n
+preplace netloc axi_clock_converter_0_M_AXI 1 5 1 N 340
+preplace netloc axi_interconnect_0_M00_AXI 1 7 1 2210 250n
+preplace netloc axi_interconnect_0_M01_AXI 1 7 1 N 390
+preplace netloc axi_interconnect_0_M02_AXI 1 7 1 2180 410n
+levelinfo -pg 1 0 120 360 650 970 1260 1630 2030 2350 2620 2770
+pagesize -pg 1 -db -bbox -sgen 0 0 2880 630
+"
+}
+{
+   """""""""""""""""""""""""""""""""""""""da_axi4_cnt""""""""""""""""""""""""""""""""""""""":"1"
+}

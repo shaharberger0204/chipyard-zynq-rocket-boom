@@ -1,0 +1,47 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.957949",
+   "Default View_TopLeft":"704,-80",
+   "ExpandedHierarchyInLayout":"",
+   "commentid":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port port-id_pulse_out -pg 1 -lvl 11 -x 3010 -y 490 -defaultsOSRD
+preplace inst PS_SUBSYSTEM -pg 1 -lvl 6 -x 1610 -y 180 -defaultsOSRD
+preplace inst axi_clock_converter_0 -pg 1 -lvl 5 -x 1230 -y 150 -defaultsOSRD
+preplace inst vio_0 -pg 1 -lvl 1 -x 120 -y 390 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 2 -x 380 -y 400 -defaultsOSRD
+preplace inst axi_addr_remap_64_0 -pg 1 -lvl 4 -x 940 -y 110 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 8 -x 2340 -y 380 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 7 -x 2010 -y 200 -defaultsOSRD
+preplace inst pulse_gen_0 -pg 1 -lvl 9 -x 2660 -y 490 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 8 -x 2340 -y 100 -defaultsOSRD
+preplace inst axi_bram_ctrl_1 -pg 1 -lvl 8 -x 2340 -y 240 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 9 -x 2660 -y 230 -defaultsOSRD
+preplace inst Rocket_Core_0 -pg 1 -lvl 3 -x 660 -y 380 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 10 -x 2890 -y 370 -defaultsOSRD
+preplace netloc PS_SUBSYSTEM_peripheral_aresetn_100M 1 1 9 240 310 NJ 310 NJ 310 NJ 310 1420J 360 1850 10 2180 490 2530 410 N
+preplace netloc PS_SUBSYSTEM_peripheral_aresetn_300M 1 4 3 1070 380 NJ 380 1800
+preplace netloc PS_SUBSYSTEM_pl_clk_300M 1 4 3 1060 360 1400J 370 1810
+preplace netloc axi_gpio_0_gpio_io_o 1 8 1 2490 390n
+preplace netloc clk_100M_1 1 0 10 20 330 NJ 330 520 110 810 30 1050 50 1410J 400 1840 400 2170 480 2520J 370 N
+preplace netloc pulse_gen_0_pulse_out 1 9 2 2790 490 N
+preplace netloc util_vector_logic_0_Res1 1 2 3 530 190 830 190 1050
+preplace netloc vio_0_probe_out0 1 1 1 NJ 390
+preplace netloc PS_SUBSYSTEM_M_AXI_HPM1_FPD 1 6 1 N 90
+preplace netloc Rocket_Core_0_M_AXI_MEM 1 3 7 820 370 N 370 1390 460 N 460 N 460 2480 330 N
+preplace netloc Rocket_Core_0_M_AXI_MMIO 1 3 7 NJ 390 NJ 390 NJ 390 1860 390 2160 470 2500 350 N
+preplace netloc axi_addr_remap_64_0_m_axi 1 4 1 N 110
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 8 1 2480 100n
+preplace netloc axi_bram_ctrl_1_BRAM_PORTA 1 8 1 N 240
+preplace netloc axi_clock_converter_0_M_AXI 1 5 1 N 150
+preplace netloc axi_interconnect_0_M00_AXI 1 7 1 2200 180n
+preplace netloc axi_interconnect_0_M01_AXI 1 7 1 2190 80n
+preplace netloc axi_interconnect_0_M02_AXI 1 7 1 N 220
+levelinfo -pg 1 -10 120 380 660 940 1230 1610 2010 2340 2660 2890 3010
+pagesize -pg 1 -db -bbox -sgen -10 0 3130 570
+"
+}
+{
+   """"""""""""""""""""""""""""""""""da_axi4_cnt"""""""""""""""""""""""""""""""""":"1"
+}
