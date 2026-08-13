@@ -2,6 +2,7 @@
 
 Final project repository for integrating **Chipyard-generated RISC-V processors** with the **iW-RainboW-G30M Zynq UltraScale+ MPSoC platform**.
 
+The project was conducted at Tel Aviv University in collaboration with Ayecka Communication.
 The project implements two different RISC-V cores in the Programmable Logic (PL):
 
 - **Rocket** — in-order RISC-V core
