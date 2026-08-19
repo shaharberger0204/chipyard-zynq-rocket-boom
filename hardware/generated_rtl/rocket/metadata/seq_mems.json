@@ -1,0 +1,86 @@
+[
+  {
+    "module_name": "cc_dir_ext",
+    "depth": 1024,
+    "width": 144,
+    "masked": true,
+    "read": 0,
+    "write": 0,
+    "readwrite": 1,
+    "mask_granularity": 18,
+    "extra_ports": [],
+    "hierarchy": [
+      "ChipTop.system.coh_wrapper.l2.inclusive_cache_bank_sched.directory.cc_dir.cc_dir_ext"
+    ]
+  },
+  {
+    "module_name": "cc_banks_0_ext",
+    "depth": 16384,
+    "width": 64,
+    "masked": false,
+    "read": 0,
+    "write": 0,
+    "readwrite": 1,
+    "extra_ports": [],
+    "hierarchy": [
+      "ChipTop.system.coh_wrapper.l2.inclusive_cache_bank_sched.bankedStore.cc_banks_3.cc_banks_0_ext",
+      "ChipTop.system.coh_wrapper.l2.inclusive_cache_bank_sched.bankedStore.cc_banks_2.cc_banks_0_ext",
+      "ChipTop.system.coh_wrapper.l2.inclusive_cache_bank_sched.bankedStore.cc_banks_1.cc_banks_0_ext",
+      "ChipTop.system.coh_wrapper.l2.inclusive_cache_bank_sched.bankedStore.cc_banks_0.cc_banks_0_ext"
+    ]
+  },
+  {
+    "module_name": "rockettile_dcache_data_arrays_0_ext",
+    "depth": 512,
+    "width": 64,
+    "masked": true,
+    "read": 0,
+    "write": 0,
+    "readwrite": 1,
+    "mask_granularity": 8,
+    "extra_ports": [],
+    "hierarchy": [
+      "ChipTop.system.tile_prci_domain.element_reset_domain_rockettile.dcache.data.rockettile_dcache_data_arrays_0.rockettile_dcache_data_arrays_0_ext"
+    ]
+  },
+  {
+    "module_name": "rockettile_dcache_tag_array_0_ext",
+    "depth": 64,
+    "width": 22,
+    "masked": false,
+    "read": 0,
+    "write": 0,
+    "readwrite": 1,
+    "extra_ports": [],
+    "hierarchy": [
+      "ChipTop.system.tile_prci_domain.element_reset_domain_rockettile.dcache.rockettile_dcache_tag_array_0.rockettile_dcache_tag_array_0_ext"
+    ]
+  },
+  {
+    "module_name": "rockettile_icache_tag_array_0_ext",
+    "depth": 64,
+    "width": 21,
+    "masked": false,
+    "read": 0,
+    "write": 0,
+    "readwrite": 1,
+    "extra_ports": [],
+    "hierarchy": [
+      "ChipTop.system.tile_prci_domain.element_reset_domain_rockettile.frontend.icache.rockettile_icache_tag_array_0.rockettile_icache_tag_array_0_ext"
+    ]
+  },
+  {
+    "module_name": "rockettile_icache_data_arrays_0_0_ext",
+    "depth": 512,
+    "width": 32,
+    "masked": false,
+    "read": 0,
+    "write": 0,
+    "readwrite": 1,
+    "extra_ports": [],
+    "hierarchy": [
+      "ChipTop.system.tile_prci_domain.element_reset_domain_rockettile.frontend.icache.rockettile_icache_data_arrays_1_0.rockettile_icache_data_arrays_0_0_ext",
+      "ChipTop.system.tile_prci_domain.element_reset_domain_rockettile.frontend.icache.rockettile_icache_data_arrays_0_0.rockettile_icache_data_arrays_0_0_ext"
+    ]
+  }
+]
