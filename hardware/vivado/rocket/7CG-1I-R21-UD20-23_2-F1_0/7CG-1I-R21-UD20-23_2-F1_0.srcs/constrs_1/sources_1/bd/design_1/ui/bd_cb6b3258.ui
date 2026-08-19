@@ -1,0 +1,45 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.631707",
+   "Default View_TopLeft":"-564,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port S_AXI_VCU -pg 1 -lvl 0 -x -10 -y 250 -defaultsOSRD
+preplace port M_AXI_ENC -pg 1 -lvl 4 -x 910 -y 150 -defaultsOSRD
+preplace port M_AXI_DEC -pg 1 -lvl 4 -x 910 -y 650 -defaultsOSRD
+preplace port M_AXI_MCU -pg 1 -lvl 4 -x 910 -y 400 -defaultsOSRD
+preplace port port-id_clk_300M -pg 1 -lvl 0 -x -10 -y 490 -defaultsOSRD
+preplace port port-id_clk_100M -pg 1 -lvl 0 -x -10 -y 270 -defaultsOSRD
+preplace port port-id_interconnect_aresetn_300M -pg 1 -lvl 0 -x -10 -y 120 -defaultsOSRD
+preplace port port-id_resetn_300M -pg 1 -lvl 0 -x -10 -y 160 -defaultsOSRD
+preplace port port-id_vcu_host_irq -pg 1 -lvl 4 -x 910 -y 800 -defaultsOSRD
+preplace portBus emio_gpio -pg 1 -lvl 0 -x -10 -y 330 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 3 -x 740 -y 150 -defaultsOSRD
+preplace inst axi_interconnect_1 -pg 1 -lvl 3 -x 740 -y 650 -defaultsOSRD
+preplace inst axi_interconnect_2 -pg 1 -lvl 3 -x 740 -y 400 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 120 -y 430 -defaultsOSRD
+preplace inst vcu_0 -pg 1 -lvl 2 -x 390 -y 310 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 1 -x 120 -y 330 -defaultsOSRD
+preplace netloc ACLK_1 1 0 3 20J 260 230 190 590
+preplace netloc ARESETN_1 1 0 3 NJ 120 NJ 120 580
+preplace netloc Din_1 1 0 1 NJ 330
+preplace netloc S00_ARESETN_1 1 0 3 NJ 160 NJ 160 550
+preplace netloc clk_100M_1 1 0 2 10 270 NJ
+preplace netloc clk_wiz_0_clk_out1 1 1 1 240J 310n
+preplace netloc vcu_0_vcu_host_interrupt 1 2 2 540J 800 NJ
+preplace netloc xlslice_0_Dout 1 1 1 220J 290n
+preplace netloc S_AXI_VCU_1 1 0 2 NJ 250 NJ
+preplace netloc axi_interconnect_0_M00_AXI 1 3 1 NJ 150
+preplace netloc axi_interconnect_1_M00_AXI 1 3 1 NJ 650
+preplace netloc axi_interconnect_2_M00_AXI 1 3 1 NJ 400
+preplace netloc vcu_0_M_AXI_DEC0 1 2 1 570 300n
+preplace netloc vcu_0_M_AXI_DEC1 1 2 1 560 320n
+preplace netloc vcu_0_M_AXI_ENC0 1 2 1 540 60n
+preplace netloc vcu_0_M_AXI_ENC1 1 2 1 570 80n
+preplace netloc vcu_0_M_AXI_MCU 1 2 1 N 340
+levelinfo -pg 1 -10 120 390 740 910
+pagesize -pg 1 -db -bbox -sgen -240 0 1050 820
+"
+}
+0

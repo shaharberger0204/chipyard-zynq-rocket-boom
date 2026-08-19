@@ -1,0 +1,104 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.772012",
+   "Default View_TopLeft":"-837,-231",
+   "ExpandedHierarchyInLayout":"",
+   "commentid":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port S00_AXI -pg 1 -lvl 0 -x -10 -y 60 -defaultsOSRD
+preplace port M00_AXI -pg 1 -lvl 5 -x 1710 -y 240 -defaultsOSRD
+preplace port gt_tx_serdes_interface_0 -pg 1 -lvl 5 -x 1710 -y 740 -defaultsOSRD
+preplace port gt_rx_serdes_interface_0 -pg 1 -lvl 5 -x 1710 -y 760 -defaultsOSRD
+preplace port M02_AXI -pg 1 -lvl 5 -x 1710 -y 20 -defaultsOSRD
+preplace port port-id_rx_clk_out_0 -pg 1 -lvl 0 -x -10 -y 530 -defaultsOSRD
+preplace port port-id_rx_serdes_clk_0 -pg 1 -lvl 0 -x -10 -y 830 -defaultsOSRD
+preplace port port-id_rx_serdes_reset_0 -pg 1 -lvl 0 -x -10 -y 850 -defaultsOSRD
+preplace port port-id_tx_core_clk_0 -pg 1 -lvl 0 -x -10 -y 870 -defaultsOSRD
+preplace port port-id_clk_125MHZ -pg 1 -lvl 0 -x -10 -y 250 -defaultsOSRD
+preplace port port-id_ext_reset_in -pg 1 -lvl 0 -x -10 -y 310 -defaultsOSRD
+preplace port port-id_rx_reset_0 -pg 1 -lvl 0 -x -10 -y 910 -defaultsOSRD
+preplace port port-id_tx_reset_0 -pg 1 -lvl 0 -x -10 -y 930 -defaultsOSRD
+preplace port port-id_gtwiz_reset_tx_done_0 -pg 1 -lvl 0 -x -10 -y 1040 -defaultsOSRD
+preplace port port-id_gtwiz_reset_rx_done_0 -pg 1 -lvl 0 -x -10 -y 1060 -defaultsOSRD
+preplace port port-id_ctl_gt_reset_all_0 -pg 1 -lvl 5 -x 1710 -y 840 -defaultsOSRD
+preplace port port-id_ctl_gt_tx_reset_0 -pg 1 -lvl 5 -x 1710 -y 860 -defaultsOSRD
+preplace port port-id_ctl_gt_rx_reset_0 -pg 1 -lvl 5 -x 1710 -y 880 -defaultsOSRD
+preplace port port-id_gt_loopback_out_0 -pg 1 -lvl 5 -x 1710 -y 960 -defaultsOSRD
+preplace port port-id_clk_100M -pg 1 -lvl 0 -x -10 -y 80 -defaultsOSRD
+preplace port port-id_interconnect_aresetn_100M -pg 1 -lvl 0 -x -10 -y 100 -defaultsOSRD
+preplace port port-id_resetn_100M -pg 1 -lvl 0 -x -10 -y 140 -defaultsOSRD
+preplace port port-id_user_rx_reset -pg 1 -lvl 0 -x -10 -y 470 -defaultsOSRD
+preplace port port-id_user_tx_reset -pg 1 -lvl 0 -x -10 -y 570 -defaultsOSRD
+preplace port port-id_tx_clk_out_0 -pg 1 -lvl 0 -x -10 -y 230 -defaultsOSRD
+preplace port port-id_mm2s_introut -pg 1 -lvl 5 -x 1710 -y 40 -defaultsOSRD
+preplace port port-id_s2mm_introut -pg 1 -lvl 5 -x 1710 -y 60 -defaultsOSRD
+preplace portBus peripheral_reset_125M -pg 1 -lvl 5 -x 1710 -y 620 -defaultsOSRD
+preplace portBus tx_reset -pg 1 -lvl 5 -x 1710 -y 560 -defaultsOSRD
+preplace portBus rx_reset -pg 1 -lvl 5 -x 1710 -y 460 -defaultsOSRD
+preplace portBus peripheral_aresetn -pg 1 -lvl 5 -x 1710 -y 0 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 3 -x 990 -y 190 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 2 -x 590 -y 120 -defaultsOSRD
+preplace inst axi_interconnect_1 -pg 1 -lvl 4 -x 1460 -y 240 -defaultsOSRD
+preplace inst axis_data_fifo_0 -pg 1 -lvl 2 -x 590 -y 430 -defaultsOSRD
+preplace inst axis_data_fifo_1 -pg 1 -lvl 3 -x 990 -y 550 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -x 190 -y 330 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 1 -x 190 -y 470 -defaultsOSRD
+preplace inst util_vector_logic_1 -pg 1 -lvl 2 -x 590 -y 570 -defaultsOSRD
+preplace inst util_vector_logic_2 -pg 1 -lvl 4 -x 1460 -y 460 -defaultsOSRD
+preplace inst util_vector_logic_3 -pg 1 -lvl 4 -x 1460 -y 560 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 3 -x 990 -y 750 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 3 -x 990 -y 990 -defaultsOSRD
+preplace inst xxv_ethernet_0 -pg 1 -lvl 4 -x 1460 -y 860 -defaultsOSRD
+preplace netloc ACLK_1 1 0 4 20 530 410 280 740 0 1240
+preplace netloc ACLK_2 1 0 2 NJ 80 380
+preplace netloc S00_ARESETN_1 1 1 4 390 290 750 10 1260 0 N
+preplace netloc S02_ACLK_1 1 0 4 10J 540 430 340 810 340 1220
+preplace netloc axi_dma_0_mm2s_introut 1 3 2 1210J 30 1690J
+preplace netloc axi_dma_0_mm2s_prmry_reset_out_n 1 3 1 1170J 200n
+preplace netloc axi_dma_0_s2mm_introut 1 3 2 1200J 20 1670J
+preplace netloc axi_dma_0_s2mm_prmry_reset_out_n 1 3 1 1160J 220n
+preplace netloc ext_reset_in_1 1 0 1 NJ 310
+preplace netloc gtwiz_reset_rx_done_0_1 1 0 4 NJ 1060 NJ 1060 NJ 1060 1260J
+preplace netloc gtwiz_reset_tx_done_0_1 1 0 4 NJ 1040 NJ 1040 780J 1050 1190J
+preplace netloc interconnect_aresetn_100M_1 1 0 2 NJ 100 370J
+preplace netloc peripheral_resetn_100M_1 1 0 2 NJ 140 380J
+preplace netloc proc_sys_reset_0_interconnect_aresetn 1 1 3 NJ 350 NJ 350 1250
+preplace netloc proc_sys_reset_0_peripheral_reset 1 1 4 400J 320 NJ 320 1230J 60 1660J
+preplace netloc rx_reset_0_1 1 0 4 NJ 910 NJ 910 NJ 910 1200J
+preplace netloc rx_serdes_clk_0_1 1 0 4 NJ 830 NJ 830 NJ 830 NJ
+preplace netloc rx_serdes_reset_0_1 1 0 4 NJ 850 NJ 850 NJ 850 NJ
+preplace netloc tx_clk_out_0_1 1 0 4 NJ 230 370J 300 800 20 1190J
+preplace netloc tx_core_clk_0_1 1 0 4 NJ 870 NJ 870 NJ 870 NJ
+preplace netloc tx_reset_0_1 1 0 4 NJ 930 NJ 930 NJ 930 1160J
+preplace netloc user_rx_reset_1 1 0 1 NJ 470
+preplace netloc user_tx_reset_1 1 0 2 NJ 570 NJ
+preplace netloc util_vector_logic_0_Res 1 1 3 420 330 NJ 330 1270
+preplace netloc util_vector_logic_1_Res 1 2 2 750 360 1210
+preplace netloc util_vector_logic_2_Res 1 4 1 NJ 460
+preplace netloc util_vector_logic_3_Res 1 4 1 NJ 560
+preplace netloc xlconstant_0_dout 1 3 1 1270 750n
+preplace netloc xlconstant_1_dout 1 3 1 NJ 990
+preplace netloc xxv_ethernet_0_ctl_gt_reset_all_0 1 4 1 NJ 840
+preplace netloc xxv_ethernet_0_ctl_gt_rx_reset_0 1 4 1 NJ 880
+preplace netloc xxv_ethernet_0_ctl_gt_tx_reset_0 1 4 1 NJ 860
+preplace netloc xxv_ethernet_0_gt_loopback_out_0 1 4 1 NJ 960
+preplace netloc S00_AXI_1 1 0 2 NJ 60 360J
+preplace netloc axi_dma_0_M_AXIS_MM2S 1 2 2 820 30 1160
+preplace netloc axi_dma_0_M_AXI_MM2S 1 3 1 N 140
+preplace netloc axi_dma_0_M_AXI_S2MM 1 3 1 N 160
+preplace netloc axi_dma_0_M_AXI_SG 1 3 1 N 120
+preplace netloc axi_interconnect_0_M00_AXI 1 2 1 790 100n
+preplace netloc axi_interconnect_0_M01_AXI 1 2 2 760 50 1180J
+preplace netloc axi_interconnect_1_M00_AXI 1 4 1 NJ 240
+preplace netloc axis_data_fifo_0_M_AXIS 1 2 1 790 150n
+preplace netloc axis_data_fifo_1_M_AXIS 1 3 1 1190 550n
+preplace netloc xxv_ethernet_0_axis_rx_0 1 1 4 440 510 780J 40 NJ 40 1650
+preplace netloc xxv_ethernet_0_gt_rx_serdes_interface_0 1 4 1 NJ 760
+preplace netloc xxv_ethernet_0_gt_tx_serdes_interface_0 1 4 1 NJ 740
+preplace netloc axi_interconnect_0_M02_AXI 1 2 3 770J 60 1220J 50 1680J
+levelinfo -pg 1 -10 190 590 990 1460 1710
+pagesize -pg 1 -db -bbox -sgen -240 -40 1940 1090
+"
+}
+0

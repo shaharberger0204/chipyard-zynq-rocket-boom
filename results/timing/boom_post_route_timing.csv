@@ -1,0 +1,4 @@
+frequency_mhz,wns_ns,tns_ns,whs_ns,ths_ns,result
+100.00,0.321,0,0.010,0,PASS
+107.15,0.187,0,0.009,0,PASS
+115.38,-0.174,-2.601,0.002,0,SETUP_FAIL

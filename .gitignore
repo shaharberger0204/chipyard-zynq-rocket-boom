@@ -1,0 +1,22 @@
+# Vivado / Xilinx generated artifacts
+.Xil/
+*.cache/
+*.runs/
+*.sim/
+*.tmp/
+*.hw/
+*.ip_user_files/
+*.jou
+*.log
+*.str
+hs_err_*.log
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*~
+*.swp
+
+# Build outputs that are not explicitly archived
+*.o
+*.dump

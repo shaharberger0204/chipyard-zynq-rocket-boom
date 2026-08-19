@@ -1,0 +1,146 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.560584",
+   "Default View_TopLeft":"-43,227",
+   "ExpandedHierarchyInLayout":"",
+   "comment_1":"EMIO Assignment
+
+0    -   USB Interrupt
+1    -   USB Switch
+2    -   CAN 0 Power Down
+3    -   GEM 3 Reset
+4    -   GEM 3 Interrupt
+5    -   PCIe Wake
+6    -   PCIe Reset
+",
+   "commentid":"comment_1|",
+   "fillcolor_comment_1":"",
+   "font_comment_1":"30",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port gem_3_mdio -pg 1 -lvl 4 -x 1720 -y 470 -defaultsOSRD
+preplace port ddr4 -pg 1 -lvl 4 -x 1720 -y 360 -defaultsOSRD
+preplace port ddr4_sysclk -pg 1 -lvl 0 -x 0 -y 350 -defaultsOSRD
+preplace port board_config_gpio -pg 1 -lvl 4 -x 1720 -y 60 -defaultsOSRD
+preplace port pmod_gpio_1 -pg 1 -lvl 4 -x 1720 -y 80 -defaultsOSRD
+preplace port pmod_gpio_2 -pg 1 -lvl 4 -x 1720 -y 100 -defaultsOSRD
+preplace port fmc1_gpio_1 -pg 1 -lvl 4 -x 1720 -y 120 -defaultsOSRD
+preplace port fmc1_gpio_2 -pg 1 -lvl 4 -x 1720 -y 140 -defaultsOSRD
+preplace port fmc1_gpio_3 -pg 1 -lvl 4 -x 1720 -y 160 -defaultsOSRD
+preplace port fmc2_gpio_1 -pg 1 -lvl 4 -x 1720 -y 180 -defaultsOSRD
+preplace port fmc2_gpio_2 -pg 1 -lvl 4 -x 1720 -y 200 -defaultsOSRD
+preplace port gt_tx_serdes_interface_0 -pg 1 -lvl 4 -x 1720 -y 1050 -defaultsOSRD
+preplace port gt_rx_serdes_interface_0 -pg 1 -lvl 4 -x 1720 -y 1070 -defaultsOSRD
+preplace port port-id_dp_hpd -pg 1 -lvl 0 -x 0 -y 630 -defaultsOSRD
+preplace port port-id_sdi_rxp -pg 1 -lvl 0 -x 0 -y 820 -defaultsOSRD
+preplace port port-id_sdi_rxn -pg 1 -lvl 0 -x 0 -y 840 -defaultsOSRD
+preplace port port-id_sdi_txp -pg 1 -lvl 4 -x 1720 -y 670 -defaultsOSRD
+preplace port port-id_sdi_txn -pg 1 -lvl 4 -x 1720 -y 690 -defaultsOSRD
+preplace port port-id_intf_0_qpll1out_clk_in -pg 1 -lvl 0 -x 0 -y 860 -defaultsOSRD
+preplace port port-id_intf_0_qpll1out_refclk_in -pg 1 -lvl 0 -x 0 -y 880 -defaultsOSRD
+preplace port port-id_intf_0_qpll1lock_in -pg 1 -lvl 0 -x 0 -y 900 -defaultsOSRD
+preplace port port-id_intf_0_qpll1reset_out -pg 1 -lvl 4 -x 1720 -y 710 -defaultsOSRD
+preplace port port-id_rx_serdes_clk_0 -pg 1 -lvl 0 -x 0 -y 1040 -defaultsOSRD
+preplace port port-id_rx_serdes_reset_0 -pg 1 -lvl 0 -x 0 -y 1060 -defaultsOSRD
+preplace port port-id_rx_reset_0 -pg 1 -lvl 0 -x 0 -y 1140 -defaultsOSRD
+preplace port port-id_tx_reset_0 -pg 1 -lvl 0 -x 0 -y 1160 -defaultsOSRD
+preplace port port-id_gtwiz_reset_tx_done_0 -pg 1 -lvl 0 -x 0 -y 1180 -defaultsOSRD
+preplace port port-id_gtwiz_reset_rx_done_0 -pg 1 -lvl 0 -x 0 -y 1200 -defaultsOSRD
+preplace port port-id_user_rx_reset -pg 1 -lvl 0 -x 0 -y 1280 -defaultsOSRD
+preplace port port-id_user_tx_reset -pg 1 -lvl 0 -x 0 -y 1300 -defaultsOSRD
+preplace port port-id_ctl_gt_reset_all_0 -pg 1 -lvl 4 -x 1720 -y 1130 -defaultsOSRD
+preplace port port-id_ctl_gt_tx_reset_0 -pg 1 -lvl 4 -x 1720 -y 1150 -defaultsOSRD
+preplace port port-id_ctl_gt_rx_reset_0 -pg 1 -lvl 4 -x 1720 -y 1170 -defaultsOSRD
+preplace port port-id_gt_loopback_out_0 -pg 1 -lvl 4 -x 1720 -y 1190 -defaultsOSRD
+preplace port port-id_s_axi_aclk_0 -pg 1 -lvl 4 -x 1720 -y 940 -defaultsOSRD
+preplace port port-id_pl_resetn0 -pg 1 -lvl 4 -x 1720 -y 890 -defaultsOSRD
+preplace port port-id_rx_clk_out_0 -pg 1 -lvl 0 -x 0 -y 1020 -defaultsOSRD
+preplace port port-id_tx_clk_out_0 -pg 1 -lvl 0 -x 0 -y 1080 -defaultsOSRD
+preplace portBus dp_aux_p -pg 1 -lvl 4 -x 1720 -y 490 -defaultsOSRD
+preplace portBus dp_aux_n -pg 1 -lvl 4 -x 1720 -y 510 -defaultsOSRD
+preplace portBus emio_gpio_i -pg 1 -lvl 0 -x 0 -y 650 -defaultsOSRD
+preplace portBus peripheral_reset_125M -pg 1 -lvl 4 -x 1720 -y 1110 -defaultsOSRD
+preplace portBus tx_reset -pg 1 -lvl 4 -x 1720 -y 1210 -defaultsOSRD
+preplace portBus rx_reset -pg 1 -lvl 4 -x 1720 -y 1230 -defaultsOSRD
+preplace portBus emio_gpio_o -pg 1 -lvl 4 -x 1720 -y 790 -defaultsOSRD
+preplace inst PS_SUBSYSTEM -pg 1 -lvl 1 -x 420 -y 630 -defaultsOSRD
+preplace inst DDR4 -pg 1 -lvl 2 -x 1010 -y 370 -defaultsOSRD
+preplace inst GPIO -pg 1 -lvl 2 -x 1010 -y 130 -defaultsOSRD
+preplace inst SDI -pg 1 -lvl 2 -x 1010 -y 690 -defaultsOSRD
+preplace inst ETH_10G -pg 1 -lvl 2 -x 1010 -y 1160 -defaultsOSRD
+preplace inst AXI_DNA_0 -pg 1 -lvl 3 -x 1600 -y 630 -defaultsOSRD
+preplace netloc ETH_10G_ctl_gt_reset_all_0 1 2 2 NJ 1130 N
+preplace netloc ETH_10G_ctl_gt_rx_reset_0 1 2 2 NJ 1170 N
+preplace netloc ETH_10G_ctl_gt_tx_reset_0 1 2 2 NJ 1150 N
+preplace netloc ETH_10G_gt_loopback_out_0 1 2 2 NJ 1190 N
+preplace netloc ETH_10G_mm2s_introut 1 1 2 800 920 1210
+preplace netloc ETH_10G_peripheral_reset_125M 1 2 2 NJ 1110 N
+preplace netloc ETH_10G_rx_reset 1 2 2 NJ 1230 N
+preplace netloc ETH_10G_s2mm_introut 1 1 2 810 910 1250
+preplace netloc ETH_10G_tx_reset 1 2 2 NJ 1210 N
+preplace netloc Net 1 1 3 650J 490 NJ 490 N
+preplace netloc Net1 1 1 3 640J 480 NJ 480 1700
+preplace netloc PS_SUBSYSTEM_clk_300M 1 1 1 690 610n
+preplace netloc PS_SUBSYSTEM_emio_gpio_o_0 1 1 3 700J 880 NJ 880 1700
+preplace netloc PS_SUBSYSTEM_peripheral_aresetn_100M 1 1 2 720 260 1260
+preplace netloc PS_SUBSYSTEM_peripheral_reset_100M 1 1 1 660 410n
+preplace netloc PS_SUBSYSTEM_pl_clk_125M 1 1 3 650 940 NJ 940 N
+preplace netloc PS_SUBSYSTEM_pl_resetn0 1 1 3 780 900 NJ 900 1700
+preplace netloc SDI_dout 1 0 3 230 890 NJ 890 1210
+preplace netloc SDI_intf_0_qpll1reset_out 1 2 2 NJ 710 N
+preplace netloc SDI_sdi_txn 1 2 2 1260J 720 1700
+preplace netloc SDI_sdi_txp 1 2 2 1230J 550 1700
+preplace netloc clk_100M_1 1 1 2 680 270 1250
+preplace netloc dp_hpd_1 1 0 1 NJ 630
+preplace netloc emio_gpio_i_1 1 0 1 NJ 650
+preplace netloc gtwiz_reset_rx_done_0_1 1 0 2 NJ 1200 NJ
+preplace netloc gtwiz_reset_tx_done_0_1 1 0 2 NJ 1180 NJ
+preplace netloc interconnect_aresetn_100M_1 1 1 1 740 160n
+preplace netloc interconnect_aresetn_300M_1 1 1 1 730 670n
+preplace netloc intf_0_qpll1lock_in_1 1 0 2 NJ 900 750J
+preplace netloc intf_0_qpll1out_clk_in_1 1 0 2 NJ 860 790J
+preplace netloc intf_0_qpll1out_refclk_in_1 1 0 2 NJ 880 670J
+preplace netloc resetn_300M_1 1 1 1 700 630n
+preplace netloc rx_clk_out_0_1 1 0 2 NJ 1020 NJ
+preplace netloc rx_reset_0_1 1 0 2 NJ 1140 NJ
+preplace netloc rx_serdes_clk_0_1 1 0 2 NJ 1040 NJ
+preplace netloc rx_serdes_reset_0_1 1 0 2 NJ 1060 NJ
+preplace netloc sdi_rxn_1 1 0 2 NJ 840 770J
+preplace netloc sdi_rxp_1 1 0 2 20J 850 760J
+preplace netloc tx_clk_out_0_1 1 0 2 NJ 1080 620
+preplace netloc tx_reset_0_1 1 0 2 NJ 1160 NJ
+preplace netloc user_rx_reset_1 1 0 2 NJ 1280 NJ
+preplace netloc user_tx_reset_1 1 0 2 NJ 1300 NJ
+preplace netloc DDR4_M01_AXI 1 2 1 1240 380n
+preplace netloc DDR4_ddr4 1 2 2 NJ 360 N
+preplace netloc ETH_10G_M00_AXI 1 0 3 220 250 NJ 250 1220
+preplace netloc ETH_10G_gt_rx_serdes_interface_0 1 2 2 NJ 1070 N
+preplace netloc ETH_10G_gt_tx_serdes_interface_0 1 2 2 NJ 1050 N
+preplace netloc GPIO_board_config_gpio 1 2 2 NJ 60 N
+preplace netloc GPIO_fmc1_gpio_1 1 2 2 NJ 120 N
+preplace netloc GPIO_fmc1_gpio_2 1 2 2 NJ 140 N
+preplace netloc GPIO_fmc1_gpio_3 1 2 2 NJ 160 N
+preplace netloc GPIO_fmc2_gpio_1 1 2 2 NJ 180 N
+preplace netloc GPIO_fmc2_gpio_2 1 2 2 NJ 200 N
+preplace netloc GPIO_pmod_gpio_1 1 2 2 NJ 80 N
+preplace netloc GPIO_pmod_gpio_2 1 2 2 NJ 100 N
+preplace netloc PS_SUBSYSTEM_M00_AXI 1 1 1 630 490n
+preplace netloc PS_SUBSYSTEM_M01_AXI 1 1 1 710 510n
+preplace netloc PS_SUBSYSTEM_M_AXI_HPM0_LPD 1 1 1 610 100n
+preplace netloc PS_SUBSYSTEM_M_AXI_HPM1_FPD 1 1 1 620 330n
+preplace netloc SDI_M00_AXI 1 0 3 230 410 640J 460 1210
+preplace netloc ddr4_sys_clk_1 1 0 2 NJ 350 NJ
+preplace netloc zynq_ultra_ps_e_0_MDIO_ENET3 1 1 3 NJ 470 NJ 470 N
+preplace cgraphic comment_1 place left -514 71 textcolor 4 linecolor 3 linewidth 2
+levelinfo -pg 1 0 420 1010 1600 1720
+pagesize -pg 1 -db -bbox -sgen -230 0 1960 1370
+",
+   "linecolor_comment_1":"",
+   "textcolor_comment_1":""
+}
+{
+   """""""da_axi4_cnt""""""":"1"
+}
+{
+   "/comment_2":"comment_1"
+}
